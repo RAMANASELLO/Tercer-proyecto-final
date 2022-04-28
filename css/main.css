@@ -1,0 +1,328 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.nav {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(gray), to(lightgray));
+  background-image: linear-gradient(gray, lightgray);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  height: 80px;
+  padding: 8px;
+}
+
+.nav .lista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 50%;
+  padding-right: 5px;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  list-style-type: none;
+}
+
+a {
+  -webkit-text-decoration: double;
+          text-decoration: double;
+  font-size: 12px;
+  color: black;
+}
+
+.logo {
+  font-size: 14px;
+  color: black;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 5px;
+}
+
+.logo img {
+  height: auto;
+  width: 40px;
+  position: relative;
+}
+
+.seccion-uno {
+  margin-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.seccion-uno .subtitulo h3 {
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.seccion-dos {
+  margin-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.seccion-dos .card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.seccion-dos .card-container .card {
+  border-radius: 5px black solid;
+  border: none;
+  width: 30%;
+  height: 320px;
+  -webkit-transform: translate(2px);
+          transform: translate(2px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.seccion-dos .card-container .card img {
+  width: 220px;
+}
+
+.card-2 img {
+  height: 220px;
+  width: 220px;
+}
+
+.card-2 h4 {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(gray), to(lightgray));
+  background-image: linear-gradient(gray, lightgray);
+}
+
+.footer .defensa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .iconos img {
+  width: 30px;
+  height: 30px;
+}
+
+.texto {
+  padding-top: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+  text-align: justify;
+  width: 90%;
+}
+
+.texto p {
+  padding-bottom: 100px;
+}
+
+.historia-img img {
+  width: 400px;
+  border-radius: 8px;
+  display: block;
+  margin: auto;
+}
+
+.grafico img {
+  display: block;
+  margin: auto;
+}
+
+.seccion-tres {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 270px;
+  width: 90%;
+}
+
+.datos {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: medium;
+  width: 100%;
+}
+
+h4 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.qsomos {
+  margin-bottom: 285px;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .propaganda {
+    margin-left: 30px;
+    font-size: 10px;
+  }
+  .footer h4 {
+    font-size: 12px;
+    text-align: start;
+  }
+  .iconos img {
+    margin-right: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .card img {
+    width: 180px;
+    height: auto;
+  }
+  .card-2 img {
+    width: 200px;
+    height: 185px;
+  }
+  .card-container {
+    margin-left: 60px;
+  }
+  .propaganda {
+    margin-left: 30px;
+    font-size: 12px;
+  }
+  .footer h4 {
+    font-size: 14px;
+    text-align: start;
+  }
+  .iconos img {
+    margin-right: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=main.css.map */
